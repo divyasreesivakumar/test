@@ -78,9 +78,21 @@ The default color scheme uses CSS variables defined at the top of `style.css`:
 
 ## 📦 Deployment
 
-### Automatic Deployment with GitHub Pages
+### ⚠️ Required Setup (One-Time)
 
-The portfolio is configured to deploy automatically using GitHub Actions:
+**Before the workflow can deploy, you MUST enable GitHub Pages:**
+
+1. Go to your repository **Settings** → **Pages**  
+   (Or visit: `https://github.com/[username]/[repository]/settings/pages` - replace with your username and repo name)
+2. Navigate to "**Pages**" in the left sidebar
+3. Under "**Build and deployment**" → "**Source**", select "**GitHub Actions**"
+4. Click "**Save**"
+
+This is a one-time setup. Once completed, all future deployments will happen automatically.
+
+### Automatic Deployment
+
+After completing the setup above, the portfolio will deploy automatically:
 
 1. Push your changes to the `main` or `master` branch
 2. GitHub Actions will automatically build and deploy your site
