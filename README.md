@@ -82,7 +82,8 @@ The default color scheme uses CSS variables defined at the top of `style.css`:
 
 **Before the workflow can deploy, you MUST enable GitHub Pages:**
 
-1. Go to your repository **Settings** (https://github.com/[username]/[repository]/settings/pages)
+1. Go to your repository **Settings** → **Pages**  
+   (Or visit: `https://github.com/[username]/[repository]/settings/pages` - replace with your username and repo name)
 2. Navigate to "**Pages**" in the left sidebar
 3. Under "**Build and deployment**" → "**Source**", select "**GitHub Actions**"
 4. Click "**Save**"
